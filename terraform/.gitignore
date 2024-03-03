@@ -1,0 +1,9 @@
+.terraform
+
+# .tfstate files.
+*.tfstate
+*.tfstate.*
+
+# Variable files.
+*.tfvars
+*.tfvars.json

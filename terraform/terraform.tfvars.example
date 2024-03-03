@@ -1,0 +1,5 @@
+aws_access_key = "TODO"
+aws_secret_key = "TODO"
+hcloud_api_token = "TODO"
+ssh_public_key_path = "../.ssh/demo_key.pub"
+ssh_private_key_path = "../.ssh/demo_key"

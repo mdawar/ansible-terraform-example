@@ -1,0 +1,5 @@
+# The Python virtual environment.
+.venv
+
+# The installed collections.
+ansible_collections

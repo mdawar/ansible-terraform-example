@@ -1,0 +1,5 @@
+---
+collections:
+  # https://github.com/ansible-collections/cloud.terraform
+  - name: cloud.terraform
+    version: 2.0.0
