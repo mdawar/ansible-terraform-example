@@ -2,6 +2,8 @@
 
 An example Ansible configuration using a dynamic Terraform inventory.
 
+Blog Post: [Ansible with Terraform Inventory](https://mdawar.dev/blog/ansible-terraform-inventory)
+
 ## Terraform
 
 The required Terraform version is set in `.terraform-version` (Created with `tfenv pin`).
