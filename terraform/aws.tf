@@ -62,12 +62,13 @@ resource "ansible_host" "web1" {
     hostname = "web1"
     fqdn     = "web1.example.com"
 
-    # To define lists or maps use jsonencode().
-    list_var = jsonencode(["one", "two", "three"])
+    # Supports HCL types since ansible provider v1.4.0
+    # Previous versions required the use of `jsonencode()`.
+    list_var = ["one", "two", "three"]
 
-    map_var = jsonencode({
+    map_var = {
       country = "US"
       region  = "us-east-1"
-    })
+    }
   }
 }

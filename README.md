@@ -152,8 +152,8 @@ ansible-inventory --graph --vars
   |  |  |  |--{ansible_user = admin}
   |  |  |  |--{fqdn = web1.example.com}
   |  |  |  |--{hostname = web1}
-  |  |  |  |--{list_var = ["one","two","three"]}
-  |  |  |  |--{map_var = {"country":"US","region":"us-east-1"}}
+  |  |  |  |--{list_var = ['one', 'two', 'three']}
+  |  |  |  |--{map_var = {'country': 'US', 'region': 'us-east-1'}}
   |  |--@hetzner:
   |  |  |--web2
   |  |  |  |--{ansible_host = 5.6.7.8}
